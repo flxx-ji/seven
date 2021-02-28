@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0rem 3rem;
+  font-size: 1.5rem;
+}
+
+.rvn {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.space {
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.DR {
+  font-size: 8rem;
+  color: #ff3131;
+}
+
+.RV {
+  font-size: 8rem;
+  color: rebeccapurple;
+}
+
+.space h3 {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+.space .btn {
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  border: none;
+  background: #d8914a;
+  color: white;
+  margin-top: 20px;
+}
+
+.space .btn {
+  color: white;
+  text-decoration: none;
+}
+
+> :active {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
